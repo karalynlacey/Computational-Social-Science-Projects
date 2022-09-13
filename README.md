@@ -1,1 +1,1 @@
-# omputational-Social-Science-Projects
+# Computational-Social-Science-Projects
