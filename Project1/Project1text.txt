@@ -26,9 +26,9 @@ remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 (base) penny@Bernard Project1 % touch Project1text.txt
 
 (base) penny@Bernard Project1 % vim Project1text.txt
-(base) penny@Bernard Project1 % cd..
+(base) penny@Bernard Project1 % cd ..
 (base) penny@Bernard Project1 % git add *
 
-(base) penny@Bernard Project1 % git commit -m “Adding Project1 Folder and Text file”
+(base) penny@Bernard Project1 % git commit -m "update with added Project 1 folder and contents"
 
-(base) penny@Bernard Project1 % git push --set-upstream origin
+(base) penny@Bernard Project1 % git push
