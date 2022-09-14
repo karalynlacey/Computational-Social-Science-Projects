@@ -1,0 +1,34 @@
+Text file with commands:
+
+Last login: Tue Sep 13 16:36:51 on ttys000
+(base) penny@Bernard ~ % git version
+git version 2.32.1 (Apple Git-133)
+
+(base) penny@Bernard ~ % cd Documents/Fall2022
+
+(base) penny@Bernard Fall2022 % ssh -T git@github.com
+Hi karalynlacey! You've successfully authenticated, but GitHub does not provide shell access.
+
+(base) penny@Bernard Fall2022 % git clone git@github.com:karalynlacey/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+Receiving objects: 100% (6/6), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+
+(base) penny@Bernard Fall2022 % cd Computational-Social-Science-Projects
+
+(base) penny@Bernard Computational-Social-Science-Projects % mkdir Project1
+
+(base) penny@Bernard Computational-Social-Science-Projects % cd Project1 
+
+(base) penny@Bernard Project1 % touch Project1text.txt
+
+(base) penny@Bernard Project1 % vim Project1text.txt
+(base) penny@Bernard Project1 % cd..
+(base) penny@Bernard Project1 % git add *
+
+(base) penny@Bernard Project1 % git commit -m “Adding Project1 Folder and Text file”
+
+(base) penny@Bernard Project1 % git push --set-upstream origin
