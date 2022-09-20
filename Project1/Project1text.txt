@@ -31,4 +31,4 @@ remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 
 (base) penny@Bernard Project1 % git commit -m "update with added Project 1 folder and contents"
 
-(base) penny@Bernard Project1 % git push
+(base) penny@Bernard Project1 % git push -u origin main
